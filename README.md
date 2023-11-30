@@ -9,8 +9,12 @@
 
 ## About Laravel
 
-1. Run menggunakan perintah "php artisan serve" di terminal
-2. Sesuaikan env DB_DATABASE dengan nama database kalian
+1. Download Project
+2. Rename env.example menjadi .env2
+3. Sesuaikan env DB_DATABASE dengan nama database kalian
+4. Jalankan perintah "composer update" di terminal lokasi directory anda
+5. Jalankan perintah "php artisan key:generate"
+6. Jalankan perintah "php artisan serve"
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
